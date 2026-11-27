@@ -1,11 +1,17 @@
-<!-- 1. JANELA RETRÔ + MOLDURA LARGURA TOTAL + MESMO GATO -->
+<!-- 1. JANELA RETRÔ + PAINÉIS LATERAIS + GATO NO CENTRO + BOTÃO DE MÚSICA -->
 <div align="center">
   <img src="./topo-janela.svg" width="100%" alt="Janela Antônio Netto" />
   
   <table width="100%">
     <tr>
-      <td align="center" bgcolor="#140C1C">
-        <img src="https://media.tenor.com/y2JXkY1pXkwAAAAC/cat-computer.gif" width="380" alt="Gato digitando no computador" />
+      <td align="center" width="28%" bgcolor="#140C1C">
+        <img src="./lateral-esq.svg" width="100%" alt="Telemetria" />
+      </td>
+      <td align="center" width="44%" bgcolor="#140C1C">
+        <img src="https://media.tenor.com/y2JXkY1pXkwAAAAC/cat-computer.gif" width="320" alt="Gato digitando no computador" />
+      </td>
+      <td align="center" width="28%" bgcolor="#140C1C">
+        <img src="./lateral-dir.svg" width="100%" alt="Query SQL" />
       </td>
     </tr>
   </table>
