@@ -1,13 +1,18 @@
 <div align="center">
 
-# Antônio Neto
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b3d,100:3b82f6&height=200&section=header&text=Ant%C3%B4nio%20Neto&fontSize=52&fontColor=ffffff&desc=Banco%20de%20Dados%20%C2%B7%20SQL%20%C2%B7%20Modelagem%20de%20Dados&descSize=18&descAlignY=68" width="100%" alt="Banner Antônio Neto" />
 
-### Estudante de Tecnologia · Banco de Dados & Modelagem de Dados
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3B82F6&center=true&vCenter=true&width=620&lines=Estudante+de+Tecnologia;Foco+em+Banco+de+Dados+%26+SQL;Modelagem+de+Dados+(DER);Desenvolvimento+Web" alt="Texto animado" />
 
-Transformo requisitos de negócio em **modelos de dados claros** e **consultas SQL eficientes**.
+<br>
 
+[![GitHub](https://img.shields.io/badge/GitHub-diasantonio--dotcom-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/diasantonio-dotcom)
+<!-- Para adicionar LinkedIn, apague as setas desta linha e a da linha de baixo e troque SEU-USUARIO:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/SEU-USUARIO)
+-->
+<!-- Para adicionar e-mail, use esta linha:
 [![E-mail](https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:SEU-EMAIL)
+-->
 
 </div>
 
@@ -15,69 +20,87 @@ Transformo requisitos de negócio em **modelos de dados claros** e **consultas S
 
 ## 🎯 Objetivo
 
-Buscando oportunidade de **estágio / vaga júnior** em **Banco de Dados, Análise de Dados ou Desenvolvimento Back-end**, onde eu possa aplicar modelagem e SQL em problemas reais.
+Buscando **estágio ou vaga júnior** em **Banco de Dados, Análise de Dados ou Desenvolvimento Back-end**, aplicando modelagem e SQL em problemas reais.
 
 ## 👨‍💻 Sobre mim
 
-Estudante de Tecnologia com foco em **modelagem de dados e SQL**. Meu processo é partir do problema, desenhar o **DER**, normalizar, criar o banco e escrever as consultas que respondem às perguntas do negócio. Também construo interfaces web com HTML e CSS.
+Sou estudante de Tecnologia e gosto de ver um sistema nascer pelos dados. Meu processo é: **entender o problema → desenhar o DER → normalizar → criar o banco → escrever as consultas** que respondem às perguntas do negócio. Também construo interfaces web com HTML e CSS.
 
-- 📚 Estudando agora: **[ex: PostgreSQL avançado, índices e otimização de consultas]**
-- 🔨 Construindo: **[ex: sistema de controle de estoque com modelagem completa]**
-- 🎓 Formação: **[Curso · Instituição · Ano previsto de conclusão]**
+| 🗄️ Banco de Dados | 📐 Modelagem | 🌐 Web |
+|:---:|:---:|:---:|
+| Tabelas, chaves, restrições, `JOIN`, agregações e views | Modelo conceitual e lógico, DER e normalização | Páginas e interfaces com HTML e CSS |
 
-## 🗂️ Projetos em destaque
+## 🛠️ Tecnologias
 
-### 1. [Nome do projeto de banco de dados]
-**Problema:** [o que o sistema precisava resolver, em 1 linha]
-**O que fiz:** [ex: modelei o DER com X entidades, normalizei até a 3FN, criei scripts DDL e Y consultas]
-**Stack:** `PostgreSQL` `SQL` `[brModelo / dbdiagram / draw.io]`
-🔗 [Ver repositório](LINK)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,html,css,git,github&theme=dark" alt="Tecnologias" />
+</p>
 
-### 2. [Nome do segundo projeto]
-**Problema:** [...]
-**O que fiz:** [...]
-**Stack:** `[...]`
-🔗 [Ver repositório](LINK)
+## 📐 Como eu modelo dados
 
-### 3. [Projeto web]
-**Problema:** [...]
-**O que fiz:** [...]
-**Stack:** `HTML` `CSS`
-🔗 [Ver repositório](LINK) · [Ver online](LINK)
+Exemplo de DER (loja com clientes, pedidos e produtos):
 
-## 🧠 Habilidades
+```mermaid
+erDiagram
+    CLIENTE ||--o{ PEDIDO : realiza
+    PEDIDO ||--|{ ITEM_PEDIDO : contem
+    PRODUTO ||--o{ ITEM_PEDIDO : compoe
 
-| Área | O que sei fazer |
-|---|---|
-| **Banco de Dados** | Criar tabelas, chaves e restrições, `JOIN`, subconsultas, agregações, views |
-| **Modelagem** | Modelo conceitual e lógico, DER, normalização (1FN a 3FN) |
-| **Web** | Páginas responsivas com HTML e CSS |
-| **Ferramentas** | Git, GitHub, **[DBeaver / pgAdmin / VS Code]** |
+    CLIENTE {
+        int id PK
+        string nome
+        string email
+    }
+    PEDIDO {
+        int id PK
+        int cliente_id FK
+        date data
+    }
+    PRODUTO {
+        int id PK
+        string nome
+        decimal preco
+    }
+    ITEM_PEDIDO {
+        int pedido_id FK
+        int produto_id FK
+        int quantidade
+    }
+```
 
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-
-## 🔍 Um exemplo de como eu escrevo SQL
+## 🔍 Como eu escrevo SQL
 
 ```sql
 -- Top 5 clientes por faturamento nos últimos 30 dias
 SELECT c.nome,
-       COUNT(p.id)      AS total_pedidos,
-       SUM(p.valor)     AS faturamento
-FROM   clientes c
-JOIN   pedidos  p ON p.cliente_id = c.id
+       COUNT(DISTINCT p.id)              AS total_pedidos,
+       SUM(i.quantidade * pr.preco)      AS faturamento
+FROM   cliente c
+JOIN   pedido p        ON p.cliente_id = c.id
+JOIN   item_pedido i   ON i.pedido_id  = p.id
+JOIN   produto pr      ON pr.id        = i.produto_id
 WHERE  p.data >= CURRENT_DATE - INTERVAL '30 days'
 GROUP  BY c.nome
 ORDER  BY faturamento DESC
 LIMIT  5;
 ```
 
-## 📫 Contato
+## 📊 GitHub em números
 
-- LinkedIn: **[link]**
-- E-mail: **[seu e-mail]**
-- Portfólio: **[link, se tiver]**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=diasantonio-dotcom&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165" alt="Estatísticas" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diasantonio-dotcom&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165" alt="Linguagens" />
+</p>
+
+<!--
+PROJETOS EM DESTAQUE: quando quiser mostrar um projeto, apague as setas deste bloco
+e troque NOME-DO-REPO pelo nome exato do repositório:
+
+## 🗂️ Projetos em destaque
+
+<a href="https://github.com/diasantonio-dotcom/NOME-DO-REPO">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=diasantonio-dotcom&repo=NOME-DO-REPO&theme=tokyonight&hide_border=true&bg_color=0d1117" />
+</a>
+-->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:0d1b3d&height=100&section=footer" width="100%" alt="" />
