@@ -23,21 +23,21 @@
 
 <br/>
 
-<!-- 2. IDENTIFICAÇÃO PRINCIPAL (TRAINER CARD + HUD COMPACTO LADO A LADO) -->
+<!-- 2. IDENTIFICAÇÃO PRINCIPAL (TRAINER CARD) -->
 <div align="center">
   <img src="./trainer-card.svg" width="100%" alt="Trainer Card Antônio Netto" />
 </div>
 
 <br/>
 
-<!-- 3. ARSENAL TECNOLÓGICO EM LINHA ÚNICA COMPACTA -->
+<!-- 3. ARSENAL TECNOLÓGICO COMPLETO E PADRONIZADO -->
 <h3 align="center">⚙️ Arsenal Tecnológico</h3>
 
 <div align="center">
 
-| Banco de Dados & SQL | Modelagem | Front-end | Ferramentas |
+| Linguagens & Back-end | Banco de Dados & SQL | Front-end | Ferramentas & Ambiente |
 | :---: | :---: | :---: | :---: |
-| <img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite&theme=dark" /> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="42" height="42" /> | <img src="https://skillicons.dev/icons?i=html,css&theme=dark" /> | <img src="https://skillicons.dev/icons?i=vscode,git,github&theme=dark" /> |
+| <img src="https://skillicons.dev/icons?i=java,python,js&theme=dark" /> | <img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite&theme=dark" /> | <img src="https://skillicons.dev/icons?i=html,css&theme=dark" /> | <img src="https://skillicons.dev/icons?i=vscode,git,github,linux&theme=dark" /> |
 
 </div>
 
