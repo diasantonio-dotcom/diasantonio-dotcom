@@ -1,7 +1,7 @@
-<!-- 1. JANELA RETRÔ + BANNER GIF + BOTÃO DE MÚSICA -->
+<!-- 1. JANELA RETRÔ + GIF DO GATO DIGITANDO NO COMPUTADOR + BOTÃO DE MÚSICA -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=805AD5&height=35&text=%20%20Ant%C3%B4nio%20Netto%20%E2%80%94%20JARVIS%20%26%20Trainer%20System&fontColor=FFFFFF&fontSize=15&fontAlign=22&fontAlignY=52" width="100%" />
-  <img src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" width="100%" />
+  <img src="./topo-janela.svg" width="100%" alt="Janela Antônio Netto" />
+  <img src="https://media.tenor.com/y2JXkY1pXkwAAAAC/cat-computer.gif" width="100%" alt="Gato digitando no computador" />
   <br/><br/>
   <a href="https://www.youtube.com/watch?v=pAgnJDJN4VA" target="_blank">
     <img src="https://img.shields.io/badge/PLAY_%E2%96%B6_AC%2FDC_%E2%80%94_BACK_IN_BLACK-140C1C?style=for-the-badge&logo=youtube&logoColor=D69E2E" alt="Play Music" />
