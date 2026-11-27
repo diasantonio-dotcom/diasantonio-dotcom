@@ -1,0 +1,26 @@
+<svg width="240" height="320" viewBox="0 0 240 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="238" height="318" rx="4" fill="#140C1C" stroke="#553C9A" stroke-width="1.5" />
+  
+  <text x="16" y="28" fill="#F687B3" font-family="monospace" font-size="11" font-weight="bold">SYS // DATA_MONITOR</text>
+  <line x1="16" y1="38" x2="224" y2="38" stroke="#44337A" stroke-width="1" />
+
+  <text x="16" y="64" fill="#B794F4" font-family="monospace" font-size="11">STATUS DO SISTEMA</text>
+  <rect x="16" y="74" width="8" height="8" fill="#48BB78" />
+  <text x="30" y="82" fill="#F7FAFC" font-family="monospace" font-size="11">DB_ENGINE: ONLINE</text>
+
+  <text x="16" y="112" fill="#B794F4" font-family="monospace" font-size="11">CARGA DE QUERIES</text>
+  <rect x="16" y="122" width="208" height="8" rx="2" fill="#2D1B4E" />
+  <rect x="16" y="122" width="176" height="8" rx="2" fill="#F687B3" />
+  <text x="16" y="144" fill="#D69E2E" font-family="monospace" font-size="10">SQL_OPTIMIZATION: 85%</text>
+
+  <text x="16" y="174" fill="#B794F4" font-family="monospace" font-size="11">MODELAGEM RELACIONAL</text>
+  <rect x="16" y="184" width="208" height="8" rx="2" fill="#2D1B4E" />
+  <rect x="16" y="184" width="192" height="8" rx="2" fill="#9F7AEA" />
+  <text x="16" y="206" fill="#D69E2E" font-family="monospace" font-size="10">NORMALIZAÇÃO 3FN: 92%</text>
+
+  <line x1="16" y1="226" x2="224" y2="226" stroke="#44337A" stroke-width="1" />
+  <text x="16" y="248" fill="#F687B3" font-family="monospace" font-size="11" font-weight="bold">MÓDULOS ATIVOS</text>
+  <text x="16" y="268" fill="#CBD5E0" font-family="monospace" font-size="11">&gt; PostgreSQL / MySQL</text>
+  <text x="16" y="286" fill="#CBD5E0" font-family="monospace" font-size="11">&gt; Diagramas DER</text>
+  <text x="16" y="304" fill="#CBD5E0" font-family="monospace" font-size="11">&gt; HTML5 &amp; CSS3</text>
+</svg>
