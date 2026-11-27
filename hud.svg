@@ -1,0 +1,25 @@
+<svg width="850" height="185" viewBox="0 0 850 185" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="848" height="183" rx="6" fill="#140C1C" stroke="#553C9A" stroke-width="1.5" />
+  
+  
+  <path d="M 15 45 L 15 15 L 135 15" stroke="#D69E2E" stroke-width="2" fill="none" />
+  <path d="M 835 140 L 835 170 L 715 170" stroke="#D69E2E" stroke-width="2" fill="none" />
+
+  
+  <circle cx="805" cy="28" r="5" fill="#ED64A6" />
+  <text x="816" y="32" fill="#ED64A6" font-family="monospace" font-size="11" font-weight="bold">ON</text>
+
+  
+  <circle cx="135" cy="92" r="54" stroke="#ED64A6" stroke-width="2" stroke-dasharray="6 4" />
+  <circle cx="135" cy="92" r="44" stroke="#D69E2E" stroke-width="2" />
+  <circle cx="135" cy="92" r="32" fill="#231433" stroke="#ECC94B" stroke-width="1.5" />
+  <polygon points="135,64 159,108 111,108" fill="none" stroke="#ECC94B" stroke-width="2" />
+  <circle cx="135" cy="93" r="9" fill="#F7FAFC" />
+
+  
+  <text x="235" y="46" fill="#F687B3" font-family="monospace" font-size="12" letter-spacing="2">STARK INTERFACE / MARK 01</text>
+  <text x="235" y="80" fill="#F7FAFC" font-family="monospace" font-size="26" font-weight="bold" letter-spacing="2">J.A.R.V.I.S. ONLINE</text>
+  <text x="235" y="110" fill="#D69E2E" font-family="monospace" font-size="13">OPERADOR: <tspan fill="#F7FAFC">@diasantonio-dotcom</tspan></text>
+  <text x="235" y="132" fill="#D69E2E" font-family="monospace" font-size="13">MISSÃO: <tspan fill="#F7FAFC">modelar, estruturar e consultar dados.</tspan></text>
+  <text x="235" y="154" fill="#D69E2E" font-family="monospace" font-size="13">MÓDULOS: <tspan fill="#F7FAFC">SQL / MODELAGEM / DER / WEB</tspan></text>
+</svg>
