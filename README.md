@@ -92,8 +92,10 @@
 
 <br/>
 
+<h3 align="left">Maré de Ouro</h3>
+
 <div align="center">
-  <img src="https://ghchart.rshah.org/D53F8C/diasantonio-dotcom" width="95%" alt="Gráfico de contribuições" />
+  <img src="./carta-github.svg" width="100%" alt="Carta do Oceano - Mapa do GitHub" />
 </div>
 
 ---
