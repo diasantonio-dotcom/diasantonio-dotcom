@@ -1,0 +1,60 @@
+<svg width="850" height="250" viewBox="0 0 850 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="848" height="248" rx="4" fill="#140C1C" stroke="#9F7AEA" stroke-width="2" />
+  
+  
+  <rect x="6" y="6" width="5" height="5" fill="#F687B3" />
+  <rect x="839" y="6" width="5" height="5" fill="#F687B3" />
+  <rect x="6" y="239" width="5" height="5" fill="#F687B3" />
+  <rect x="839" y="239" width="5" height="5" fill="#F687B3" />
+
+  <text x="22" y="32" fill="#F687B3" font-family="monospace" font-size="20" font-weight="bold" letter-spacing="2">TRAINER CARD</text>
+  <text x="695" y="32" fill="#CBD5E0" font-family="monospace" font-size="12">@diasantonio-dotcom</text>
+  <line x1="20" y1="44" x2="830" y2="44" stroke="#44337A" stroke-width="1.5" />
+
+  
+  <rect x="22" y="58" width="185" height="145" fill="#1D1229" stroke="#805AD5" stroke-width="2" />
+  <rect x="38" y="72" width="4" height="4" fill="#F687B3" />
+  <rect x="172" y="68" width="4" height="4" fill="#F687B3" />
+  <rect x="182" y="102" width="4" height="4" fill="#B794F4" />
+  <rect x="32" y="122" width="4" height="4" fill="#B794F4" />
+  <line x1="22" y1="180" x2="207" y2="180" stroke="#805AD5" stroke-width="3" />
+
+  
+  <rect x="56" y="92" width="26" height="9" fill="#F56565" />
+  <rect x="56" y="101" width="22" height="20" fill="#FBD38D" />
+  <rect x="70" y="106" width="4" height="5" fill="#1A202C" />
+  <rect x="52" y="121" width="30" height="28" fill="#ED64A6" />
+  <rect x="61" y="121" width="12" height="28" fill="#FFFFFF" />
+  <rect x="54" y="149" width="11" height="31" fill="#2D3748" />
+  <rect x="69" y="149" width="11" height="31" fill="#2D3748" />
+
+  
+  <rect x="118" y="118" width="44" height="42" rx="6" fill="#805AD5" />
+  <polygon points="118,118 126,105 134,118" fill="#805AD5" />
+  <polygon points="146,118 154,105 162,118" fill="#805AD5" />
+  <rect x="126" y="130" width="9" height="5" fill="#F56565" />
+  <rect x="145" y="130" width="9" height="5" fill="#F56565" />
+  <rect x="128" y="143" width="24" height="7" fill="#FFFFFF" />
+  <rect x="124" y="160" width="11" height="20" fill="#805AD5" />
+  <rect x="145" y="160" width="11" height="20" fill="#805AD5" />
+
+  
+  <circle cx="186" cy="180" r="10" fill="#FFFFFF" stroke="#140C1C" stroke-width="2" />
+  <path d="M 176 180 A 10 10 0 0 1 196 180 Z" fill="#F56565" />
+  <circle cx="186" cy="180" r="3" fill="#FFFFFF" stroke="#140C1C" stroke-width="1.5" />
+
+  
+  <text x="232" y="74" fill="#F687B3" font-family="monospace" font-size="11" font-weight="bold">NOME</text>
+  <text x="232" y="104" fill="#FFFFFF" font-family="monospace" font-size="30" font-weight="bold" letter-spacing="1.5">ANTÔNIO NETTO</text>
+
+  <text x="232" y="130" fill="#F687B3" font-family="monospace" font-size="11" font-weight="bold">CLASSE</text>
+  <text x="232" y="149" fill="#E2E8F0" font-family="monospace" font-size="15">Estudante de Tecnologia • Dados &amp; Web</text>
+
+  <text x="232" y="175" fill="#F687B3" font-family="monospace" font-size="11" font-weight="bold">REGIÃO</text>
+  <text x="232" y="194" fill="#E2E8F0" font-family="monospace" font-size="14">Brasil • Banco de Dados / SQL / Modelagem</text>
+
+  
+  <line x1="20" y1="214" x2="830" y2="214" stroke="#44337A" stroke-width="1.5" />
+  <rect x="22" y="224" width="9" height="9" fill="#F687B3" />
+  <text x="40" y="233" fill="#F7FAFC" font-family="monospace" font-size="13">Banco de Dados / Modelagem DER / Consultas SQL / Desenvolvimento Web</text>
+</svg>
