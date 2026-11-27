@@ -1,0 +1,23 @@
+<svg width="850" height="225" viewBox="0 0 850 225" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="848" height="223" rx="6" fill="#160909" stroke="#742A2A" stroke-width="1" />
+  <path d="M 1 25 L 1 1 L 240 1" stroke="#E53E3E" stroke-width="3" fill="none" />
+  <path d="M 849 195 L 849 224 L 680 224" stroke="#E53E3E" stroke-width="3" fill="none" />
+
+  <text x="24" y="28" fill="#D69E2E" font-family="monospace" font-size="13" font-weight="bold" letter-spacing="1.5">STARK PROJECTS / 002</text>
+
+  
+  <rect x="24" y="45" width="390" height="155" rx="4" fill="#1E0B0B" stroke="#742A2A" stroke-width="1" />
+  <text x="42" y="75" fill="#F7FAFC" font-family="monospace" font-size="18" font-weight="bold">Banco de Dados</text>
+  <text x="42" y="102" fill="#E2E8F0" font-family="monospace" font-size="13">Modelagem relacional, DER e</text>
+  <text x="42" y="120" fill="#E2E8F0" font-family="monospace" font-size="13">scripts SQL estruturados.</text>
+  <line x1="42" y1="152" x2="395" y2="152" stroke="#742A2A" stroke-width="1" />
+  <text x="42" y="176" fill="#D69E2E" font-family="monospace" font-size="12" font-weight="bold">SQL • MODELAGEM • DER</text>
+
+  
+  <rect x="436" y="45" width="390" height="155" rx="4" fill="#1E0B0B" stroke="#D69E2E" stroke-width="1" />
+  <text x="454" y="75" fill="#F7FAFC" font-family="monospace" font-size="18" font-weight="bold">Desenvolvimento Web</text>
+  <text x="454" y="102" fill="#E2E8F0" font-family="monospace" font-size="13">Interfaces e páginas estruturadas</text>
+  <text x="454" y="120" fill="#E2E8F0" font-family="monospace" font-size="13">com foco em organização e dados.</text>
+  <line x1="454" y1="152" x2="807" y2="152" stroke="#742A2A" stroke-width="1" />
+  <text x="454" y="176" fill="#D69E2E" font-family="monospace" font-size="12" font-weight="bold">HTML5 • CSS3 • GIT</text>
+</svg>
