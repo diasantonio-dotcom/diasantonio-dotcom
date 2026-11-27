@@ -1,0 +1,10 @@
+<svg width="850" height="34" viewBox="0 0 850 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="0" y="0" width="850" height="34" rx="4" fill="#805AD5" />
+  <text x="16" y="22" fill="#FFFFFF" font-family="monospace" font-size="14" font-weight="bold">Antônio Netto — JARVIS &amp; Trainer System</text>
+  <rect x="782" y="8" width="17" height="17" fill="#D6BCFA" stroke="#140C1C" stroke-width="1.5" />
+  <text x="786" y="20" fill="#140C1C" font-family="monospace" font-size="12" font-weight="bold">_</text>
+  <rect x="803" y="8" width="17" height="17" fill="#D6BCFA" stroke="#140C1C" stroke-width="1.5" />
+  <text x="807" y="20" fill="#140C1C" font-family="monospace" font-size="12" font-weight="bold">□</text>
+  <rect x="824" y="8" width="17" height="17" fill="#F56565" stroke="#140C1C" stroke-width="1.5" />
+  <text x="828" y="20" fill="#FFFFFF" font-family="monospace" font-size="12" font-weight="bold">×</text>
+</svg>
