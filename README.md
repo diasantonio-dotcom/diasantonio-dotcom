@@ -1,7 +1,8 @@
-<!-- 1. JANELA RETRÔ + GIF DO GATO DIGITANDO NO COMPUTADOR + BOTÃO DE MÚSICA -->
+<!-- 1. JANELA RETRÔ + GIF DO GATO COMPACTO + BOTÃO DE MÚSICA -->
 <div align="center">
   <img src="./topo-janela.svg" width="100%" alt="Janela Antônio Netto" />
-  <img src="https://media.tenor.com/y2JXkY1pXkwAAAAC/cat-computer.gif" width="100%" alt="Gato digitando no computador" />
+  <br/>
+  <img src="https://media.tenor.com/y2JXkY1pXkwAAAAC/cat-computer.gif" width="320" alt="Gato digitando no computador" />
   <br/><br/>
   <a href="https://www.youtube.com/watch?v=pAgnJDJN4VA" target="_blank">
     <img src="https://img.shields.io/badge/PLAY_%E2%96%B6_AC%2FDC_%E2%80%94_BACK_IN_BLACK-140C1C?style=for-the-badge&logo=youtube&logoColor=D69E2E" alt="Play Music" />
