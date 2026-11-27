@@ -36,15 +36,17 @@ Sou estudante de Tecnologia e gosto de ver um sistema nascer pelos dados. Meu pr
   <img src="https://skillicons.dev/icons?i=postgres,html,css,git,github&theme=dark" alt="Tecnologias" />
 </p>
 
-## 📐 Como eu modelo dados
+## 📐 Modelagem de dados
 
-Exemplo de DER (loja com clientes, pedidos e produtos):
+> Exemplo de DER (modelo entidade-relacionamento) de uma loja, normalizado até a 3FN.
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0f2a5c','primaryTextColor':'#e6edf3','primaryBorderColor':'#3b82f6','lineColor':'#3b82f6','secondaryColor':'#0b1f45','tertiaryColor':'#0d1117','attributeBackgroundColorOdd':'#0f2a5c','attributeBackgroundColorEven':'#0b1f45','fontFamily':'Segoe UI, sans-serif','fontSize':'14px'}}}%%
 erDiagram
+    direction LR
     CLIENTE ||--o{ PEDIDO : realiza
-    PEDIDO ||--|{ ITEM_PEDIDO : contem
-    PRODUTO ||--o{ ITEM_PEDIDO : compoe
+    PEDIDO ||--|{ ITEM_PEDIDO : contém
+    PRODUTO ||--o{ ITEM_PEDIDO : compõe
 
     CLIENTE {
         int id PK
@@ -56,34 +58,65 @@ erDiagram
         int cliente_id FK
         date data
     }
-    PRODUTO {
-        int id PK
-        string nome
-        decimal preco
-    }
     ITEM_PEDIDO {
         int pedido_id FK
         int produto_id FK
         int quantidade
     }
+    PRODUTO {
+        int id PK
+        string nome
+        decimal preco
+    }
 ```
 
-## 🔍 Como eu escrevo SQL
+## 🔍 Consultas SQL
+
+> Ranking dos 5 melhores clientes dos últimos 30 dias, com participação no faturamento total.
 
 ```sql
--- Top 5 clientes por faturamento nos últimos 30 dias
-SELECT c.nome,
-       COUNT(DISTINCT p.id)              AS total_pedidos,
-       SUM(i.quantidade * pr.preco)      AS faturamento
-FROM   cliente c
-JOIN   pedido p        ON p.cliente_id = c.id
-JOIN   item_pedido i   ON i.pedido_id  = p.id
-JOIN   produto pr      ON pr.id        = i.produto_id
-WHERE  p.data >= CURRENT_DATE - INTERVAL '30 days'
-GROUP  BY c.nome
-ORDER  BY faturamento DESC
-LIMIT  5;
+WITH faturamento_cliente AS (
+    SELECT  c.id,
+            c.nome,
+            COUNT(DISTINCT p.id)          AS total_pedidos,
+            SUM(i.quantidade * pr.preco)  AS faturamento
+    FROM        cliente     c
+    INNER JOIN  pedido      p  ON p.cliente_id = c.id
+    INNER JOIN  item_pedido i  ON i.pedido_id  = p.id
+    INNER JOIN  produto     pr ON pr.id        = i.produto_id
+    WHERE   p.data >= CURRENT_DATE - INTERVAL '30 days'
+    GROUP BY c.id, c.nome
+)
+SELECT  RANK() OVER (ORDER BY faturamento DESC)               AS posicao,
+        nome,
+        total_pedidos,
+        ROUND(faturamento, 2)                                 AS faturamento,
+        ROUND(100 * faturamento / SUM(faturamento) OVER (), 1) AS pct_do_total
+FROM    faturamento_cliente
+ORDER BY posicao
+LIMIT 5;
 ```
+
+**Resultado** (dados fictícios):
+
+| posição | nome | total_pedidos | faturamento | pct_do_total |
+|:---:|---|:---:|---:|:---:|
+| 1 | Maria Souza | 12 | 4.820,00 | 23,4 |
+| 2 | João Lima | 9 | 3.150,50 | 15,3 |
+| 3 | Ana Costa | 7 | 2.740,00 | 13,3 |
+| 4 | Pedro Alves | 5 | 1.980,90 | 9,6 |
+| 5 | Carla Dias | 4 | 1.455,00 | 7,1 |
+
+<details>
+<summary><b>O que essa consulta usa</b></summary>
+
+- **CTE (`WITH`)** para organizar a consulta em etapas
+- **`JOIN` entre 4 tabelas** seguindo o modelo acima
+- **Agregações** com `COUNT`, `SUM` e `GROUP BY`
+- **Funções de janela** com `RANK()` e `SUM() OVER ()`
+- **Filtro por período** com `CURRENT_DATE` e `INTERVAL`
+
+</details>
 
 ## 📊 GitHub em números
 
