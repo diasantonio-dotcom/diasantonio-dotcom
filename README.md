@@ -1,217 +1,229 @@
-# 🕷️ ANTÔNIO NETTO | Desenvolvedor em Formação
+<!-- 🕷️ SPIDER-MAN DEVELOPER PROFILE -->
 
 <div align="center">
 
-<img src="./assets/spider-man-banner.png" width="100%" alt="Spider-Man Banner"/>
+<img src="./assets/spiderman-banner.gif" width="100%" alt="Spider-Man Banner"/>
 
-# Olá, eu sou o Antônio! 👋
+# 🕷️ ANTÔNIO NETTO
 
-### 💻 Tecnologia • Desenvolvimento de Software • Banco de Dados
+### Desenvolvedor em formação | Tecnologia em Sistemas para Internet
 
-**Transformando conhecimento em soluções, uma linha de código por vez.**
+**IFRN — Campus Canguaretama**
 
-[![GitHub](https://img.shields.io/badge/GitHub-Perfil-181717?style=for-the-badge&logo=github)](https://github.com/diasantonio-dotcom)
-[![Status](https://img.shields.io/badge/Status-Em%20evolução-2ea44f?style=for-the-badge)](#)
-[![IFRN](https://img.shields.io/badge/Estudante-IFRN-006633?style=for-the-badge)](https://portal.ifrn.edu.br/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/diasantonio-dotcom)
+[![IFRN](https://img.shields.io/badge/IFRN-006633?style=for-the-badge)](https://portal.ifrn.edu.br/)
+[![Status](https://img.shields.io/badge/STATUS-LEARNING-EF4444?style=for-the-badge)](https://github.com/diasantonio-dotcom)
 
 </div>
 
 ---
 
-## 👨‍💻 Sobre mim
+<div align="center">
 
-Sou estudante de **Tecnologia em Sistemas para Internet no Instituto Federal do Rio Grande do Norte (IFRN)** e tenho grande interesse pelo universo da programação, desenvolvimento Web e gerenciamento de bancos de dados.
-
-Gosto de transformar ideias em projetos funcionais, explorar novas tecnologias e encontrar soluções para problemas reais por meio da programação.
-
-Atualmente, venho desenvolvendo projetos que envolvem desde a estruturação de bancos de dados até a criação de aplicações Web completas.
-
-### 🎯 Minha jornada na tecnologia
-
-- 🎓 Formação em Tecnologia em Sistemas para Internet — IFRN.
-- 💾 Interesse em Banco de Dados, SQL e MySQL.
-- 🌐 Desenvolvimento de interfaces e aplicações Web.
-- ⚙️ Prática com Node.js, Express e integração com banco de dados.
-- 🧩 Experiência acadêmica com modelagem conceitual e lógica de dados.
-- 🚀 Desenvolvimento e publicação de projetos na Web.
-- 📚 Sempre buscando aprender novas ferramentas e melhorar minhas habilidades.
-
----
-
-## 🛠️ Tecnologias e ferramentas
-
-### 🌐 Desenvolvimento Web
-
-<div align="left">
-
-<img src="https://skillicons.dev/icons?i=html,css,js,nodejs,express" />
+## 💻 USER PROFILE // ABOUT.EXE
 
 </div>
 
-### 🗄️ Banco de Dados
+```bash
+guest@antonio:~$ whoami
 
-<div align="left">
+ANTÔNIO NETTO
+Estudante de Tecnologia em Sistemas para Internet
+IFRN — Campus Canguaretama
+
+Desenvolvimento Web, programação e banco de dados.
+Aprendendo na prática, um projeto de cada vez.
+
+guest@antonio:~$ _
+```
+
+Olá! Sou estudante de Tecnologia em Sistemas para Internet no IFRN e apaixonado por tecnologia, programação e desenvolvimento de soluções digitais.
+
+Gosto de aprender criando projetos, experimentar novas ferramentas e transformar conhecimentos acadêmicos em aplicações funcionais.
+
+Meu foco está no desenvolvimento Web, banco de dados e construção de sistemas.
+
+---
+
+<div align="center">
+
+## 🕸️ TECNOLOGIAS
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center" width="50%">
+
+### 💻 Programação
+
+<img src="https://skillicons.dev/icons?i=java,js" />
+
+</td>
+<td align="center" width="50%">
+
+### 🌐 Front-end
+
+<img src="https://skillicons.dev/icons?i=html,css" />
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+### 🗄️ Banco de dados
 
 <img src="https://skillicons.dev/icons?i=mysql" />
 
-</div>
+**SQL • MySQL • DER • MER**
 
-- SQL e MySQL
-- Modelagem Conceitual
-- Modelagem Lógica
-- DER e MER
-- Comandos DDL e DML
-- Relacionamentos entre tabelas
-- Consultas e JOINs
+</td>
+<td align="center" width="50%">
 
-### ⚙️ Ferramentas de desenvolvimento
+### ⚙️ Ferramentas
 
-<div align="left">
+<img src="https://skillicons.dev/icons?i=vscode,git,github,linux" />
 
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux,java" />
+**MySQL Workbench**
 
-</div>
-
-- Git e GitHub
-- Visual Studio Code
-- MySQL Workbench
-- Linux e terminal
-- Java — fundamentos de programação e orientação a objetos
+</td>
+</tr>
+</table>
 
 ---
 
-## 🚀 Projetos em destaque
+<div align="center">
 
-Aqui estão alguns dos projetos que fazem parte da minha jornada como desenvolvedor.
+## 🚀 PROJECT ARCHIVE / 004
 
-### 🏥 Health Prime — Sistema de Gestão de Saúde
+# Meus projetos
 
-Sistema desenvolvido com foco na gestão hospitalar e organização de informações.
+*Cada projeto é uma nova missão.*
 
-**Principais funcionalidades e tecnologias:**
-- Cadastro e gerenciamento de pacientes.
-- Cadastro e gerenciamento de médicos.
-- Organização de especialidades e consultas.
-- Dashboard com informações do sistema.
-- Integração com banco de dados MySQL.
-- Backend utilizando Node.js e Express.
+</div>
 
-**Tecnologias:** Node.js, Express, MySQL, JavaScript, HTML e CSS.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-[🔗 Ver repositório](https://github.com/antonio-neto405/health-prime)
+### 🏥 Health Prime
 
----
+Sistema de Gestão de Saúde.
 
-### 🍔 Burger Prime — Sistema de Hamburgueria
+- Cadastro de pacientes.
+- Cadastro de médicos.
+- Especialidades e consultas.
+- Dashboard administrativo.
+- Integração com MySQL.
 
-Projeto de uma hamburgueria digital, pensado para oferecer uma experiência de compra organizada e moderna.
+**Tecnologias:** Node.js, Express, MySQL, HTML, CSS e JavaScript.
 
-**Principais características:**
-- Catálogo de hambúrgueres e produtos.
-- Organização de produtos e quantidades.
-- Sistema de pedidos.
+[VER REPOSITÓRIO](https://github.com/antonio-neto405/health-prime)
+
+</td>
+<td width="50%" valign="top">
+
+### 🍔 Burger Prime
+
+Sistema de hamburgueria digital.
+
+- Catálogo de produtos.
+- Organização de pedidos.
+- Gerenciamento de produtos.
 - Integração com banco de dados.
-- Interface voltada para experiência do usuário.
+- Experiência de compra online.
 
-**Objetivo:** desenvolver uma aplicação comercial que aproxime o aprendizado acadêmico de uma necessidade real de negócio.
+**Tecnologias:** HTML, CSS, JavaScript e MySQL.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛒 NexMart
+
+Loja virtual com diversas categorias.
+
+- Catálogo de produtos.
+- Organização por categorias.
+- Interface de comércio eletrônico.
+- Experiência de navegação.
+- Publicação na Vercel.
+
+**Tecnologias:** Desenvolvimento Web.
+
+[ACESSAR LOJA](https://nexmart-loja-completa.vercel.app/)
+
+</td>
+<td width="50%" valign="top">
+
+### 🎓 IFRN / Extensão
+
+Plataforma de divulgação de projetos de extensão.
+
+- Apresentação de iniciativas acadêmicas.
+- Divulgação de projetos.
+- Organização de informações.
+- Interface Web.
+
+**Tecnologias:** HTML, CSS e JavaScript.
+
+</td>
+</tr>
+</table>
 
 ---
-
-### 🛒 NexMart — Loja Virtual
-
-Projeto de comércio eletrônico com proposta de uma loja que reúne diferentes categorias de produtos.
-
-**Principais características:**
-- Organização de produtos por categorias.
-- Interface de loja virtual.
-- Experiência de navegação e apresentação de produtos.
-- Projeto preparado para publicação na Web.
-
-**Objetivo:** explorar desenvolvimento de interfaces, organização de aplicações e experiência de compra online.
-
-🌐 [Acessar a loja NexMart](https://nexmart-loja-completa.vercel.app/)
-
----
-
-### 🎓 Projetos acadêmicos — IFRN
-
-Também desenvolvo atividades acadêmicas relacionadas a:
-
-- Modelagem de bancos de dados.
-- Sistemas de informação.
-- Desenvolvimento Web.
-- Sistemas Operacionais.
-- Linux e Shell Script.
-- Programação orientada a objetos.
-- Redes e infraestrutura de computadores.
-
----
-
-## 📊 Estatísticas do GitHub
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=diasantonio-dotcom&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+## 📊 GITHUB ANALYTICS
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diasantonio-dotcom&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=diasantonio-dotcom&show_icons=true&theme=dark&hide_border=true&title_color=EF4444&icon_color=3B82F6"/>
 
-</div>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diasantonio-dotcom&layout=compact&theme=dark&hide_border=true&title_color=EF4444"/>
 
-### 🔥 Minha atividade
+<br/>
 
-<div align="center">
-
-<img width="100%" src="https://streak-stats.demolab.com?user=diasantonio-dotcom&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-
-## 🧠 O que estou desenvolvendo atualmente
-
-- Aprimorando meus conhecimentos em SQL e MySQL.
-- Evoluindo na criação de aplicações Web.
-- Desenvolvendo projetos com Node.js e Express.
-- Melhorando a organização e arquitetura dos meus códigos.
-- Praticando Git e GitHub para versionamento de projetos.
-- Aprimorando minhas habilidades em programação e resolução de problemas.
-
----
-
-## 🎯 Objetivos profissionais
-
-Meu objetivo é evoluir continuamente como desenvolvedor, construir aplicações úteis e conquistar experiência no mercado de tecnologia.
-
-Quero aprofundar meus conhecimentos em:
-
-- Desenvolvimento Full Stack.
-- Engenharia e administração de Banco de Dados.
-- Arquitetura e organização de software.
-- Desenvolvimento de sistemas profissionais.
-- Boas práticas de programação.
-
-Acredito que cada projeto é uma oportunidade de aprender, experimentar e evoluir.
-
----
-
-## 📬 Vamos nos conectar?
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-diasantonio--dotcom-181717?style=for-the-badge&logo=github)](https://github.com/diasantonio-dotcom)
-
-**Estou sempre aberto a aprender, compartilhar conhecimento e participar de novos projetos!**
+<img width="85%" src="https://streak-stats.demolab.com?user=diasantonio-dotcom&theme=dark&hide_border=true&ring=EF4444&fire=3B82F6&currStreakLabel=EF4444"/>
 
 </div>
 
 ---
 
+## 🧠 CURRENT MISSIONS
+
+```text
+[✓] Aprender SQL e MySQL
+[✓] Desenvolver projetos acadêmicos
+[✓] Trabalhar com modelagem de dados
+[ ] Evoluir no desenvolvimento Full Stack
+[ ] Aprimorar arquitetura de software
+[ ] Construir aplicações cada vez melhores
+```
+
+---
+
+## 🎯 OBJETIVOS
+
+- Evoluir como desenvolvedor de software.
+- Aprimorar conhecimentos em desenvolvimento Full Stack.
+- Criar sistemas completos e funcionais.
+- Desenvolver soluções para problemas reais.
+- Aprender novas tecnologias e boas práticas.
+- Construir um portfólio profissional.
+
+---
+
 <div align="center">
 
-### 🕷️ "Com grandes poderes vêm grandes responsabilidades."
+## 📡 CONNECTION ESTABLISHED
 
-**Obrigado por visitar meu perfil!**
+[![GitHub](https://img.shields.io/badge/MEU_GITHUB-181717?style=for-the-badge&logo=github)](https://github.com/diasantonio-dotcom)
 
-⭐ Se algum projeto chamou sua atenção, fique à vontade para explorar meus repositórios.
+**Obrigado por visitar meu universo!**
+
+### 🕷️ Com grandes poderes vêm grandes responsabilidades.
+
+*One project at a time. One line of code at a time.*
 
 </div>
