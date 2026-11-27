@@ -1,139 +1,63 @@
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:161B22,100:1F6FEB&height=180§ion=header&text=Antônio%20Netto&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=Engenharia%20de%20Dados%20%7C%20SQL%20%7C%20Desenvolvimento%20Back-end&descSize=16&descAlignY=60&descColor=8B949E" width="100%" />
+</div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1b3d,100:3b82f6&height=200&section=header&text=Ant%C3%B4nio%20Neto&fontSize=52&fontColor=ffffff&desc=Banco%20de%20Dados%20%C2%B7%20SQL%20%C2%B7%20Modelagem%20de%20Dados&descSize=18&descAlignY=68" width="100%" alt="Banner Antônio Neto" />
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=58A6FF¢er=true&vCenter=true&width=600&lines=Modelagem+Relacional+%26+Arquitetura+de+Dados;Otimiza%C3%A7%C3%A3o+de+Consultas+SQL+%26+ETL;Desenvolvimento+Back-end+e+Integra%C3%A7%C3%A3o+Web" alt="Typing SVG" />
+  </a>
+</div>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=3B82F6&center=true&vCenter=true&width=620&lines=Estudante+de+Tecnologia;Foco+em+Banco+de+Dados+%26+SQL;Modelagem+de+Dados+(DER);Desenvolvimento+Web" alt="Texto animado" />
+<div align="center">
+  <a href="https://github.com/diasantonio-dotcom">
+    <img src="https://img.shields.io/badge/GitHub-161B22?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <!-- Substitua os links abaixo pelo seu LinkedIn e E-mail real -->
+  <a href="https://linkedin.com/in/SEU-USUARIO-AQUI">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:seuemail@exemplo.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</div>
 
-<br>
+<br/>
 
-[![GitHub](https://img.shields.io/badge/GitHub-diasantonio--dotcom-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/diasantonio-dotcom)
-<!-- Para adicionar LinkedIn, apague as setas desta linha e a da linha de baixo e troque SEU-USUARIO:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/SEU-USUARIO)
--->
-<!-- Para adicionar e-mail, use esta linha:
-[![E-mail](https://img.shields.io/badge/E--mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:SEU-EMAIL)
--->
+### Sobre Mim
 
+Estudante de Tecnologia com foco em **Banco de Dados, Análise de Dados e Desenvolvimento Back-end**. Minha abordagem consiste em estruturar dados de forma íntegra e escalável desde a concepção da regra de negócio até a entrega da informação para tomada de decisão.
+
+Atualmente busco oportunidades de **Estágio ou Desenvolvedor/Analista Júnior** onde eu possa aplicar modelagem relacional, consultas analíticas e desenvolvimento de sistemas para resolver problemas reais.
+
+---
+
+### Competências Técnicas & Fluxo de Trabalho
+
+| Domínio | Especialidades e Entregáveis |
+| :--- | :--- |
+| **Arquitetura & Modelagem** | Levantamento de requisitos, Diagrama Entidade-Relacionamento (DER), Modelagem Conceitual, Lógica e Física, Normalização (1FN, 2FN, 3FN). |
+| **Banco de Dados & SQL** | Criação de schemas, integridade referencial (PK/FK, Constraints), consultas complexas (`JOINs`, Subqueries, CTEs), agregações, `Views` e índices. |
+| **Desenvolvimento Web** | Estruturação semântica com HTML5, estilização responsiva com CSS3 e integração de interfaces com camadas de dados. |
+
+---
+
+### Stack Tecnológica
+
+<div align="left">
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=flat-square&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
 </div>
 
 ---
 
-## 🎯 Objetivo
+### Métricas no GitHub
 
-Buscando **estágio ou vaga júnior** em **Banco de Dados, Análise de Dados ou Desenvolvimento Back-end**, aplicando modelagem e SQL em problemas reais.
-
-## 👨‍💻 Sobre mim
-
-Sou estudante de Tecnologia e gosto de ver um sistema nascer pelos dados. Meu processo é: **entender o problema → desenhar o DER → normalizar → criar o banco → escrever as consultas** que respondem às perguntas do negócio. Também construo interfaces web com HTML e CSS.
-
-| 🗄️ Banco de Dados | 📐 Modelagem | 🌐 Web |
-|:---:|:---:|:---:|
-| Tabelas, chaves, restrições, `JOIN`, agregações e views | Modelo conceitual e lógico, DER e normalização | Páginas e interfaces com HTML e CSS |
-
-## 🛠️ Tecnologias
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=postgres,html,css,git,github&theme=dark" alt="Tecnologias" />
-</p>
-
-## 📐 Modelagem de dados
-
-> Exemplo de DER (modelo entidade-relacionamento) de uma loja, normalizado até a 3FN.
-
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#0f2a5c','primaryTextColor':'#e6edf3','primaryBorderColor':'#3b82f6','lineColor':'#3b82f6','secondaryColor':'#0b1f45','tertiaryColor':'#0d1117','attributeBackgroundColorOdd':'#0f2a5c','attributeBackgroundColorEven':'#0b1f45','fontFamily':'Segoe UI, sans-serif','fontSize':'14px'}}}%%
-erDiagram
-    direction LR
-    CLIENTE ||--o{ PEDIDO : realiza
-    PEDIDO ||--|{ ITEM_PEDIDO : contém
-    PRODUTO ||--o{ ITEM_PEDIDO : compõe
-
-    CLIENTE {
-        int id PK
-        string nome
-        string email
-    }
-    PEDIDO {
-        int id PK
-        int cliente_id FK
-        date data
-    }
-    ITEM_PEDIDO {
-        int pedido_id FK
-        int produto_id FK
-        int quantidade
-    }
-    PRODUTO {
-        int id PK
-        string nome
-        decimal preco
-    }
-```
-
-## 🔍 Consultas SQL
-
-> Ranking dos 5 melhores clientes dos últimos 30 dias, com participação no faturamento total.
-
-```sql
-WITH faturamento_cliente AS (
-    SELECT  c.id,
-            c.nome,
-            COUNT(DISTINCT p.id)          AS total_pedidos,
-            SUM(i.quantidade * pr.preco)  AS faturamento
-    FROM        cliente     c
-    INNER JOIN  pedido      p  ON p.cliente_id = c.id
-    INNER JOIN  item_pedido i  ON i.pedido_id  = p.id
-    INNER JOIN  produto     pr ON pr.id        = i.produto_id
-    WHERE   p.data >= CURRENT_DATE - INTERVAL '30 days'
-    GROUP BY c.id, c.nome
-)
-SELECT  RANK() OVER (ORDER BY faturamento DESC)               AS posicao,
-        nome,
-        total_pedidos,
-        ROUND(faturamento, 2)                                 AS faturamento,
-        ROUND(100 * faturamento / SUM(faturamento) OVER (), 1) AS pct_do_total
-FROM    faturamento_cliente
-ORDER BY posicao
-LIMIT 5;
-```
-
-**Resultado** (dados fictícios):
-
-| posição | nome | total_pedidos | faturamento | pct_do_total |
-|:---:|---|:---:|---:|:---:|
-| 1 | Maria Souza | 12 | 4.820,00 | 23,4 |
-| 2 | João Lima | 9 | 3.150,50 | 15,3 |
-| 3 | Ana Costa | 7 | 2.740,00 | 13,3 |
-| 4 | Pedro Alves | 5 | 1.980,90 | 9,6 |
-| 5 | Carla Dias | 4 | 1.455,00 | 7,1 |
-
-<details>
-<summary><b>O que essa consulta usa</b></summary>
-
-- **CTE (`WITH`)** para organizar a consulta em etapas
-- **`JOIN` entre 4 tabelas** seguindo o modelo acima
-- **Agregações** com `COUNT`, `SUM` e `GROUP BY`
-- **Funções de janela** com `RANK()` e `SUM() OVER ()`
-- **Filtro por período** com `CURRENT_DATE` e `INTERVAL`
-
-</details>
-
-## 📊 GitHub em números
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=diasantonio-dotcom&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165" alt="Estatísticas" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=diasantonio-dotcom&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" height="165" alt="Linguagens" />
-</p>
-
-<!--
-PROJETOS EM DESTAQUE: quando quiser mostrar um projeto, apague as setas deste bloco
-e troque NOME-DO-REPO pelo nome exato do repositório:
-
-## 🗂️ Projetos em destaque
-
-<a href="https://github.com/diasantonio-dotcom/NOME-DO-REPO">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=diasantonio-dotcom&repo=NOME-DO-REPO&theme=tokyonight&hide_border=true&bg_color=0d1117" />
-</a>
--->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,100:0d1b3d&height=100&section=footer" width="100%" alt="" />
+<div align="center">
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=diasantonio-dotcom&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&bg_color=0D1117&border_color=30363D&title_color=58A6FF&icon_color=58A6FF"/>
+  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=diasantonio-dotcom&layout=compact&langs_count=6&theme=github_dark&bg_color=0D1117&border_color=30363D&title_color=58A6FF"/>
+</div>
